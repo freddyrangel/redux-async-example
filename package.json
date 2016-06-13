@@ -1,0 +1,29 @@
+{
+  "name": "redux-async-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --reporter spec src/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddyrangel/redux-async-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freddyrangel/redux-async-example/issues"
+  },
+  "homepage": "https://github.com/freddyrangel/redux-async-example#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
